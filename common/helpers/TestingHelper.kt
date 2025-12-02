@@ -1,0 +1,25 @@
+/**
+ * Copyright (C) 2025 Sokeriaaa
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms of
+ * the GNU Affero General Public License as published by the Free Software Foundation, version 3.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this program.
+ * If not, see <https://www.gnu.org/licenses/>.
+ */
+package sokeriaaa.return0.test.shared.common.helpers
+
+import kotlin.test.assertEquals
+
+fun assertDoubleEquals(expected: Double, actual: Double, absoluteTolerance: Double = 1e-5) {
+    assertEquals(expected, actual, absoluteTolerance)
+}
+
+fun assertFloatEquals(expected: Float, actual: Float, absoluteTolerance: Float = 1e-5f) {
+    assertEquals(expected, actual, absoluteTolerance)
+}

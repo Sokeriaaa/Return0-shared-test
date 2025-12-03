@@ -24,6 +24,7 @@ import kotlin.random.Random
 class FakeRandom(private val values: List<Number>) : Random() {
 
     constructor(value: Number) : this(listOf(value))
+    constructor(vararg values: Number) : this(values.toList())
 
     private var index = 0
 

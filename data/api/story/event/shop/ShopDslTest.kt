@@ -6,7 +6,7 @@ import sokeriaaa.return0.shared.data.api.story.event.shop.buildShopEntries
 import sokeriaaa.return0.shared.data.models.component.conditions.CommonCondition
 import sokeriaaa.return0.shared.data.models.component.values.TimeValue
 import sokeriaaa.return0.shared.data.models.story.currency.CurrencyType
-import sokeriaaa.return0.shared.data.models.story.event.shop.ShopEntry
+import sokeriaaa.return0.shared.data.models.story.event.interactive.shop.ShopEntry
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

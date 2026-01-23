@@ -6,7 +6,7 @@ import sokeriaaa.return0.shared.data.api.story.event.interactive.buildShopEntrie
 import sokeriaaa.return0.shared.data.models.component.conditions.CommonCondition
 import sokeriaaa.return0.shared.data.models.component.values.TimeValue
 import sokeriaaa.return0.shared.data.models.story.currency.CurrencyType
-import sokeriaaa.return0.shared.data.models.story.event.interactive.shop.ShopEntry
+import sokeriaaa.return0.shared.data.models.story.event.interactive.ItemEntry
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -19,7 +19,7 @@ class ShopDslTest {
         }
         val item = entries.getOrNull(0)
         assertEquals(
-            expected = ShopEntry.Item.Inventory("awesome_item"),
+            expected = ItemEntry.Inventory("awesome_item"),
             actual = item?.item
         )
         assertEquals(
@@ -39,7 +39,7 @@ class ShopDslTest {
         }
         val item = entries.getOrNull(0)
         assertEquals(
-            expected = ShopEntry.Item.Inventory("another_item"),
+            expected = ItemEntry.Inventory("another_item"),
             actual = item?.item
         )
         assertEquals(
@@ -60,7 +60,7 @@ class ShopDslTest {
         }
         val item = entries.getOrNull(0)
         assertEquals(
-            expected = ShopEntry.Item.Inventory("rare_item"),
+            expected = ItemEntry.Inventory("rare_item"),
             actual = item?.item
         )
         assertEquals(
@@ -85,7 +85,7 @@ class ShopDslTest {
         }
         val item = entries.getOrNull(0)
         assertEquals(
-            expected = ShopEntry.Item.Inventory("dont_worry_this_wil_be_restored"),
+            expected = ItemEntry.Inventory("dont_worry_this_wil_be_restored"),
             actual = item?.item
         )
         assertEquals(
@@ -110,7 +110,7 @@ class ShopDslTest {
         }
         val item = entries.getOrNull(0)
         assertEquals(
-            expected = ShopEntry.Item.Inventory("plz_buy_this_later"),
+            expected = ItemEntry.Inventory("plz_buy_this_later"),
             actual = item?.item
         )
         assertEquals(

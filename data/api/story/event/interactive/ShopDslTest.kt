@@ -1,8 +1,8 @@
-package sokeriaaa.return0.test.shared.data.api.story.event.shop
+package sokeriaaa.return0.test.shared.data.api.story.event.interactive
 
 import sokeriaaa.return0.shared.common.helpers.TimeHelper
 import sokeriaaa.return0.shared.data.api.component.value.Value
-import sokeriaaa.return0.shared.data.api.story.event.shop.buildShopEntries
+import sokeriaaa.return0.shared.data.api.story.event.interactive.buildShopEntries
 import sokeriaaa.return0.shared.data.models.component.conditions.CommonCondition
 import sokeriaaa.return0.shared.data.models.component.values.TimeValue
 import sokeriaaa.return0.shared.data.models.story.currency.CurrencyType

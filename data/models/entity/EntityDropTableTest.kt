@@ -14,8 +14,8 @@
  */
 package sokeriaaa.return0.test.shared.data.models.entity
 
+import sokeriaaa.kmpshared.test.helpers.FakeRandom
 import sokeriaaa.return0.shared.data.models.entity.EntityDropTable
-import sokeriaaa.return0.test.shared.common.helpers.FakeRandom
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith

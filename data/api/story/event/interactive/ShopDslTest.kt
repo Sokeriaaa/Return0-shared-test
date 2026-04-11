@@ -1,6 +1,6 @@
 package sokeriaaa.return0.test.shared.data.api.story.event.interactive
 
-import sokeriaaa.return0.shared.common.helpers.TimeHelper
+import sokeriaaa.kmpshared.helpers.TimeHelper
 import sokeriaaa.return0.shared.data.api.component.value.Value
 import sokeriaaa.return0.shared.data.api.story.event.interactive.buildShopEntries
 import sokeriaaa.return0.shared.data.models.component.conditions.CommonCondition
